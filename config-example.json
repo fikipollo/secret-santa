@@ -1,0 +1,42 @@
+{
+    "PARTICIPANTS": [
+        {
+            "name": "Aladdin",
+            "email": "email@gmail.com",
+            "dont-pair": ["Jafar", "Abu"]
+        },
+        {
+            "name": "Abu",
+            "email": "email2@gmail.com",
+            "dont-pair": ["Iago"]
+        },
+        {
+            "name": "Jazmin",
+            "email": "email3@gmail.com",
+            "dont-pair": ["Jafar"]
+        },
+        {
+            "name": "Jafar",
+            "email": "email4@gmail.com ",
+            "dont-pair": ["Genie"]
+        },
+        {
+            "name": "Iago",
+            "email": "email5@gmail.com",
+            "dont-pair": []
+        },
+        {
+            "name": "Genie",
+            "email": "email6@gmail.com",
+            "dont-pair": []
+        }
+    ],
+    "SUBJECT": "Your secret santa is...",
+    "BUDGET": 15,
+    "SMTP_CONFIG": {
+      "host": "smtp.gmail.com",
+      "port": 587,
+      "sender": "email@gmail.com",
+      "password": "supersecretpassword"
+    }
+}
